@@ -8,7 +8,7 @@
 account = input('Please enter 10 digit account number: ')
 
 s = account[-4:].rjust(len(account), 'X') 
-# using splicing, since python uses negative indes to start from the last item.  
-# w3school.com tutorial provided inspiration for the use of rjust() method for right aligning a string
+# splicing, python uses negative indes to start from the last item.  In this case -4 for last 4 digits  
+# w3school.com tutorial provided inspiration for the use of rjust() function for right aligning a string
 
 print(s)
