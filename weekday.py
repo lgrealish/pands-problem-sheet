@@ -10,7 +10,7 @@ from datetime import datetime
  # day of the weekday list which contains 7 items
 weekday = datetime.today().weekday()
  
- # if the weekday is between 1 and 5 then it is a weekday
+ # if the weekday is between 0 and 4 then it is a weekday
 if weekday < 5:
     print("Yes, unfortunately today is a weekday")
 # if the weekday is 5 or 6 on the list then it is the weekend.
