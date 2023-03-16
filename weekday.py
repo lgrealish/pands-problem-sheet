@@ -13,7 +13,7 @@ weekday = datetime.today().weekday()
  # if the weekday is between 0 and 4 then it is a weekday
 if weekday < 5:
     print("Yes, unfortunately today is a weekday")
-# if the weekday is 5 or 6 on the list then it is the weekend.
+# if the weekday is 5th or 6th on the list then it is the weekend.
 else:  
     # 5 Sat, 6 Sun
     print("It is the weekend, yay!")
