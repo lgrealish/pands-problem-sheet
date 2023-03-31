@@ -9,8 +9,8 @@ account = input('Please enter 10 digit account number: ')
 
 # add validation to make sure it's a 10 digit number - if length 
 # of account number input does not equal 10 user is prompted to input again.
-# while (len(account) != 10):
-    #account = input('Please enter 10 digit account number: ')
+while (len(account) != 10):
+    account = input('Try again\nPlease enter 10 digit account number: ')
   
 #else:
     
@@ -21,4 +21,5 @@ print (s)
         # w3school.com tutorial provided inspiration for the use of rjust() function for right aligning a string
 
         # as the code in line 17 simply replaces the last 4 dgigits in a string of integers this 
-        # code will work with any legth odf account number.
+        # code will work with any length of account number by also removing
+        # the validation in line 12 and 13.
