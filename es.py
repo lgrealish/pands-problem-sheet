@@ -1,6 +1,6 @@
 # es.py
 # Author: Linda Grealish
-# This program reads in a text file and outputs the number of e's it contains
+# This program reads in a text file called week07.txt and outputs the number of e's it contains
 # week 7 task
 
 
@@ -8,7 +8,7 @@ import sys
 filename = sys.argv[-1]
 
 
-# explicit function to return the letter count
+# first we need to define explicit function to return the letter count
 def letterFrequency(fileName, letter):
 	# open file in read mode
 	file = open(fileName, 'r')
