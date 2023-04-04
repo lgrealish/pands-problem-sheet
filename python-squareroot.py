@@ -9,15 +9,6 @@ n = float (input("Enter a positive number: "))
 approx_sqrt = 0.5*n
 print(f"Approximate square root of {n} is : {approx_sqrt}")
 
-#def newtonSqrt(n, base):
-    #approx_root = 0.5 * n
-    #for i in range(base):
-       # betterapprox = 0.5 * (approx_root + n/approx_root)
-        #approx_root = betterapprox
-   # return betterapprox
-
-
-
 
 def newtonSqrt(n):
     approx=0.5*n
@@ -28,9 +19,9 @@ def newtonSqrt(n):
     return approx
 
 
-result = {.2f}.{newtonSqrt(n)}
-#print (f"The square root of {n} is :{newtonSqrt(n)}")
+result = {newtonSqrt(n)}
 
-print (f"The square root of {n} is : " + format(result, ',.2f'))
 
-#print((round(n,2) "The square root of {n} is : {newtonSqrt(n)}"))
+print (f"The square root of {n} is : ", round (newtonSqrt(n),3) )
+
+
