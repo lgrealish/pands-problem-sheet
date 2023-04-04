@@ -26,6 +26,7 @@ def newtonSqrt(n):
 
 result = {newtonSqrt(n)}
 
+# print the reult and round the result to 3 decimal places using the round() function
 print (f"The square root of {n} is : ", round (newtonSqrt(n),3) )
 
 
