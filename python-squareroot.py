@@ -4,6 +4,7 @@
 # and outputs an approximation of its square root using Newtons Method
 # week 6 task
 # https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm
+# https://www.youtube.com/watch?v=xdlIFw5EM4w
 
 # set input to float type
 n = float (input("Enter a positive number: "))
