@@ -12,8 +12,8 @@ account = input('Please enter 10 digit account number: ')
 while (len(account) != 10):
     account = input('Try again\nPlease enter 10 digit account number: ')
  
-# if the input is the correct length the code below uses splicing 
-# # python uses negative index to start from the last item.  In this case -4 for last 4 digits  
+# if the input is the correct length the code below uses slicing 
+# and negative index to start from the last item on the string.  In this case -4 for last 4 digits  
 # w3school.com tutorial provided inspiration for the use of rjust() function for right aligning a string
  else:
     
