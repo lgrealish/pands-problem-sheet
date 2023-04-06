@@ -4,6 +4,7 @@
 # and standard deviation of 2, and plot of the function  h(x)=x3 in the range [0, 10], 
 # week 8 task
 
+# import the modules needed - numpy and matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
 
