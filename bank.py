@@ -13,5 +13,5 @@ amount2 = int(input('Please enter amount2 (in cent):'))
 # convert to € and cent and returns the amount as a floating number
 sum = float((amount1 + amount2) / 100)
 
-# displays the result of the above calculation to 2 decimal places
+# displays the result of the above calculation to 2
 print (f"The sum of these is €" + format(format(sum, ',.2f')))
