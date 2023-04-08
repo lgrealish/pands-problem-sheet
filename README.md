@@ -1,7 +1,7 @@
 # Pands Problem Sheet 2023
 
 
-This repository is used for the problem sets given during the Programming and Scripting module on Higher Diploma in Data Analytics course from GMIT.\
+This repository is used for the problem sets given during the Programming and Scripting module on Higher Diploma in Data Analytics course from ATU.\
 Here I will explain how I came to the solution of given tasks, reference the sources I researched for solving the problems and list the technologies I used for creating and testing the code.\
 I have no previous experience of coding.  In creating this README file I used the following resources as well as consulting with fellow students.
 
@@ -110,3 +110,10 @@ The plot line for the given function was done using array function from *numpy* 
 A legend, labels and title were then added using *matplotlib* module.
 
 [W3Schools](https://www.w3schools.com/python/matplotlib_grid.asp) was the source for adding gridlines and labels.
+
+
+Technologies
+====
+
+  * Visual Studio Code - version 1.77.1
+  * Cmder - version 221218
