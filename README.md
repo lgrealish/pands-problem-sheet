@@ -67,6 +67,12 @@ All of the results at each iteration are appended to a list.
 
     Write a program that outputs whether or not today is a weekday.
 
-In order to manipulate the date and time I imported the *datetime* module.  Using the *datetime* module the code determines todays date.  The *weekday()* function returns the day of the week as an integer where Monday is 0 and Sunday is 6. [weekday](https://pythontic.com/datetime/date/weekday)
+In order to manipulate the date and time I imported the *datetime* module.  Using the *datetime* module and the function *today()* the code determines todays date.  The *weekday()* function returns the day of the week as an integer where Monday is 0 and Sunday is 6. [weekday](https://pythontic.com/datetime/date/weekday)
 
-an *if* and *else* statement return the corresponding strings if today() is a weekday or not.
+An *if* and *else* statement return the corresponding strings if today() is a weekday or not.
+
+### ***Python-squareroot***
+
+    Write a program that outputs whether or not today is a weekday.
+
+In order to manipulate the date and time I imported the *datetime* module.  Using the *datetime* module and the function *today()* the code d
