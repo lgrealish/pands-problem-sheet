@@ -31,5 +31,7 @@ plt.xlabel ("x value")
 plt.ylabel ("Function")
 plt.legend()
 
+plt.grid(color = 'green', linestyle = '--', linewidth = 0.5)
+
 # using plt.show() to return visual of the above input data
 plt.show()
