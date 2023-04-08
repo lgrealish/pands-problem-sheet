@@ -109,5 +109,4 @@ The plot line for the given function was done using array function from *numpy* 
 
 A legend, labels and title were then added using *matplotlib* module.
 
-
 [W3Schools](https://www.w3schools.com/python/matplotlib_grid.asp) was the source for adding gridlines and labels.
