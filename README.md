@@ -79,3 +79,35 @@ An *if* and *else* statement return the corresponding strings if today() is a we
 The most difficult part of this task was understanding the Newton method for square roots.  After lots of research online I found [The Last Minute Professor](https://www.youtube.com/watch?v=xdlIFw5EM4w), [GeeksForGeeks](https://www.geeksforgeeks.org/program-for-newton-raphson-method/) and [Stackoverflow](https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm) the most useful.
 
 As in some previous tasks I added a validation using a *while* loop that prompts the user to try again if a value less than 0 is read in.
+
+Next step was to define the function *sqrt* which starts by getting an approximation of the sqrt(n) and then a second *while* loop continues to carry out calculations until the better value found is not equal to the approxassumed approx then recalculate the better value using calculation better=0.5*(approx+n/approx).  Using the *round()* function to round the result to 3 decimal places.
+
+### ***Es***
+
+    Write a program that reads in a text file and outputs the number of e's it contains.
+    The program should take the filename from an argument in the command line.
+
+The program reads a text file that the users specifies in the command line but this should be in the same directory as this file.
+
+Importing the *sys* module allow us to to this.  Specifically the *sys.argv[1]* variable it is defined that the filename is second argument when calling a program sys.argv[0] is the program we are trying to start. [GeeksForGeeks](https://www.geeksforgeeks.org/command-line-arguments-in-python/)
+
+The then open the file name that was entered in the command line and uses the *count()* function to count the number of e's in that file.
+
+### ***Plottask***
+
+    Write a program that displays
+    - a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2
+    - and a plot of the function h(x)=x^3
+
+Most of the code for this was covered in lectures so there was very little external research to be done.  I did recieve some help from another student in relation to defining the plot line of the function h(x) = x^3.
+
+Both the *numpy* and *matplotlib* modules were imported for this task.
+
+The paramenters for the histogram part were defined and the random generator function from numpy was used to generate numbers to display on the normal distribution histogram.  The the *plt.hist* function was used to plot the histogram.
+
+The plot line for the given function was done using array function from *numpy* for defining the values in the range.  The plot funcion from *matplotlib* was then used to display the line plot.
+
+A legend, labels and title were then added using *matplotlib* module.
+
+
+[W3Schools](https://www.w3schools.com/python/matplotlib_grid.asp) was the source for adding gridlines and labels.

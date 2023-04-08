@@ -4,21 +4,14 @@
 # week 7 task
 
 
+# importing sys so it can take in a command line argument
 import sys
-filename = sys.argv[-1]
+filename = sys.argv[1]
 
 
-# first we need to define explicit function to return the letter count
-def letterFrequency(fileName, letter):
-	# open file in read mode
-	file = open(fileName, 'r')
+with open(filename, 'r') as f:
+    es = f.read()
+    # counting "e" character in the file
+    count = es.count("e")
 
-	# store content of the file in a variable
-	text = file.read()
-
-	# using count()
-	return text.count(letter)
-
-
-# call the function and display the letter count
-print(letterFrequency('week07.txt', 'e'))
+    print (f"There are {count} e's in that file")
