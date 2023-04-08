@@ -73,6 +73,9 @@ An *if* and *else* statement return the corresponding strings if today() is a we
 
 ### ***Python-squareroot***
 
-    Write a program that outputs whether or not today is a weekday.
+    Write a program that takes a positive floating-point number as input and outputs 
+    an approximation of its square root.
 
-In order to manipulate the date and time I imported the *datetime* module.  Using the *datetime* module and the function *today()* the code d
+The most difficult part of this task was understanding the Newton method for square roots.  After lots of research online I found [The Last Minute Professor](https://www.youtube.com/watch?v=xdlIFw5EM4w), [GeeksForGeeks](https://www.geeksforgeeks.org/program-for-newton-raphson-method/) and [Stackoverflow](https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm) the most useful.
+
+As in some previous tasks I added a validation using a *while* loop that prompts the user to try again if a value less than 0 is read in.
