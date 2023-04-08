@@ -13,7 +13,7 @@ while n < 0:
     n = float (input("Try again! \nEnter a positive number: "))
 
 else:
-    def newtonSqrt(n):
+    def sqrt(n):
         # start by assuming approx square root is half the number
         approx=0.5*n
         # find a better value by using the following calculation
@@ -25,10 +25,10 @@ else:
             better=0.5*(approx+n/approx)
         return approx
 
-    result = {newtonSqrt(n)}
+    result = {sqrt(n)}
 
     # print the reult and round the result to 3 decimal places using the round() function
-    print (f"The square root of {n} is : ", round (newtonSqrt(n),3) )
+    print (f"The square root of {n} is : ", round (sqrt(n),3) )
 
 
 
