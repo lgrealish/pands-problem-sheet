@@ -12,6 +12,6 @@ filename = sys.argv[1]
 with open(filename, 'r') as f:
     es = f.read()
     # counting "e" character in the file
-    count = es.count("e")
+    count = es.count("e") + es.count("E")
 
     print (f"There are {count} e's in that file")
