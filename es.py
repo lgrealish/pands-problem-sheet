@@ -6,8 +6,10 @@
 
 # importing sys so it can take in a command line argument
 import sys
-filename = sys.argv[1]
 
+# sys.argv[1] allows the user to input a file name from the command line rather than 
+# hardcoding the name into the coding program
+filename = sys.argv[1]
 
 with open(filename, 'r') as f:
     es = f.read()

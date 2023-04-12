@@ -35,3 +35,4 @@ plt.grid(color = 'green', linestyle = '--', linewidth = 0.5)
 
 # using plt.show() to return visual of the above input data
 plt.show()
+plt.savefig("Plottask Ouput.png")
