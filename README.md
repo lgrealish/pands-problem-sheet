@@ -61,7 +61,8 @@ Although not specified I've added a validation rule that prompts the user to 'Tr
 
 The next step was to define the collatz() function that I wanted to run.  Again this is done with a *while* loop which runs until we achieve a value of 1.  This *while* loop contains conditional statements *if* and *else* that signify what action should happen depending on whether the number is odd or even.
 
-All of the results at each iteration are appended to a list.
+All of the results at each iteration are appended to a list.  
+By adding the * and sep = "" to line 37 of the code this removes the [] and comma seperators from the return [Stackoverflow](https://stackoverflow.com/questions/15748095/removing-all-commas-from-list-in-python).
 
 ### ***Weekday***
 

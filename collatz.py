@@ -33,7 +33,7 @@ else:
                     number=number*3+1
                     lst.append(number)
             # adding the * before the lst and using the sep="" function allows for the return 
-            # to exclude the {} and comma seperators
+            # to exclude the [] and comma seperators
             print(*lst, sep = " ")
         collatz(number)
 
