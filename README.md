@@ -30,9 +30,7 @@ Weekly tasks
 
 This program is a basic calculation of based on the users input.
 
-User inputs the two amounts in cent. The amounts are added together and converted to Euro and Cent by dividing the total by 100 and is returned as a floating point number rounded to two decimal places.
-
-The [rounding](https://pythonguides.com/python-print-2-decimal-places/) of the result to 2 points was added for a nicer touch although not strictly necessary.
+I used both the floor division and modulo operators to seperate the euro and cent amount. [floor division and modulo](https://www.pythontutorial.net/advanced-python/python-floor-division/)
 
 
 ### ***Accounts***
